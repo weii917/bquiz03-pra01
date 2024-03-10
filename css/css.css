@@ -2,8 +2,7 @@
 
 /* CSS Document */
 body {
-	/* 6.1刪除 */
-	/* background:url(../icon/b.png); */
+	background:url(../icon/b.png);
 	font-family: 微軟正黑體;
 }
 
@@ -12,15 +11,12 @@ select option {
 	padding: 5px;
 }
 
-/* 9.本題組內建的預設css對於按鈕的大小和外形有時會超過版型的空間，進行修改和調整，讓按鈕的外形看起來順眼一點，但這不做也不影響解題的要求 */
 input[type='text'],
 input[type='file'],
 input[type='password'],
 textarea,
 .button {
 	width: 200px;
-	/* width: 150px; */
-	/*長度略為縮短*/
 	font-size: 16px;
 	padding: 7px 5px 7px 5px;
 	background: #4C4C4C;
@@ -35,21 +31,14 @@ input[type='submit'],
 input[type='reset'],
 button,
 .button {
-	/* 註解原本高度寬度 */
-	/* min-width:70px;
-	min-height:40px; */
+	min-width: 70px;
+	min-height: 40px;
 	background: #000;
 	color: #fff;
 	border: none;
 	cursor: pointer;
-	font-size: 14px;
-	/*字型可以改小*/
+	font-size: 18px;
 	text-decoration: none;
-	padding: 5px 12px;
-	margin: 5px;
-	/*增加上下左右的邊距*/
-	border-radius: 5px;
-	/*增加點圓角*/
 }
 
 input[type='button']:hover,
@@ -161,7 +150,6 @@ input:focus {
 	margin-left: auto;
 	margin-right: auto;
 	min-height: 100px;
-	/* 改高度 */
 	padding: 10px;
 }
 
